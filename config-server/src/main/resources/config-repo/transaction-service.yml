@@ -1,0 +1,8 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: transaction-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/rikkeibank_transaction?createDatabaseIfNotExist=true
